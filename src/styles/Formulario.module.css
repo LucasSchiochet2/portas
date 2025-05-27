@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .botoes {
   display: flex;
@@ -13,7 +13,7 @@
 
 .botoes button {
   padding: 0.75rem 1.5rem;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 800;
   border: none;
   border-radius: 8px;
@@ -23,4 +23,8 @@
 
 .botoes button:hover {
   transform: scale(1.05);
+}
+.imagem{
+  width: 80%;
+  height: 80%;
 }

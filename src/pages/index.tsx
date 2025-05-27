@@ -18,14 +18,32 @@ export default function Home() {
   return (
     <div className={styles.formulario}>
       <div>
-        <Cartao bgcolor={"red"}>
+        <Cartao bgcolor={"#FFD6BA"}>
             <h1>Dia dos<br/> Namorados</h1>
           </Cartao>
-        <Cartao bgcolor={"white"}></Cartao>
+        <Cartao bgcolor={"#fde8dd"}>
+          <div style={{ position: 'relative', width: '100%', height: '300px' }}>
+            <Image
+              src="/image/foto1.jpg"
+              alt="foto1"
+              fill
+              style={{ objectFit: "cover" }} // ou contain
+            />
+          </div>
+        </Cartao>
       </div>
       <div>
-        <Cartao bgcolor={"white"}></Cartao>
-        <Cartao bgcolor={"green"}>
+        <Cartao bgcolor={"#fde8dd"}>
+          <div style={{ position: 'relative', width: '100%', height: '300px' }}>
+            <Image
+              src="/image/foto2.jpg"
+              alt="foto1"
+              fill
+              style={{ objectFit: "cover" }} // ou contain
+            />
+          </div>
+        </Cartao>
+        <Cartao bgcolor={"#FFE8CD"}>
           <div className={styles.botoes}>
               <Link href="/jogo/3"><button>Modo Super Fácil</button></Link>
               <Link href="/jogo/5"><button>Fácil</button></Link> 

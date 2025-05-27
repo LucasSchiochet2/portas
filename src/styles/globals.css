@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #444;
-  --foreground: #fff;
+  --background: #FFDCDC;
+  --foreground: #FFE8CD;
 }
 
 @theme inline {
@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #444;
-    --foreground: #ededed;
+    --background: #FFDCDC;
+    --foreground: #FFE8CD;
   }
 }
 
@@ -23,6 +23,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/image/foto3.png);
 }
 * {
   box-sizing: border-box;

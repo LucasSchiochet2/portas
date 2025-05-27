@@ -1,8 +1,10 @@
 .cartao {
     display: flex;
-    width: 300px;
-    height: 300px;
-    color: #fff;
+    width: 400px;
+    height: 400px;
+    color: #FFDCDC;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #f1b48a;
     font-size: 2rem;
     font-weight: 600;
     padding: 20px;
@@ -12,13 +14,13 @@
 }
 
 .cartao h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 1000;
 }
 
 .cartao h2 {
     justify-content: baseline;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 1000;
     color: #000;
 }
