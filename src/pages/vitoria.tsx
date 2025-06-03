@@ -1,3 +1,4 @@
+import BackgroundMusic from "@/componets/BackGroundMusic";
 import style from "@/styles/Vitoria.module.css"
 import { useState } from "react";
 export default function vitoria(){
@@ -19,6 +20,7 @@ export default function vitoria(){
     ];
     return(
         <div className={style.corpo}> 
+        <BackgroundMusic />
             <div className={style.cartao}>
                 <div className={style.cartao2}>
                     <h1>PARABÉNS<br />MINHA ROSA</h1>

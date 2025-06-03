@@ -5,6 +5,7 @@ import styles from "@/styles/Jogo.module.css"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { useRouter } from "next/router"
+import BackgroundMusic from "@/componets/BackGroundMusic"
 
 export default function Jogo() {
   const router = useRouter()
@@ -47,6 +48,7 @@ export default function Jogo() {
 
   return (
     <div className={styles.jogo}>
+      <BackgroundMusic />
       {status && (
         <div className={`${styles.resultado} ${status === "GANHOU" ? styles.venceu : styles.perdeu}`}>
           <div className={`${status === "GANHOU" ? styles.venceu : styles.perdeu}`}></div>

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Cartao from "@/componets/Cartao";
 import styles from "../styles/Formulario.module.css"
 import Link from "next/link";
+import BackgroundMusic from "@/componets/BackGroundMusic";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,6 +18,7 @@ export default function Home() {
   const num = 10
   return (
     <div className={styles.formulario}>
+      <BackgroundMusic />
       <div>
         <Cartao bgcolor={"#FFD6BA"}>
             <h1>Dia dos<br/> Namorados</h1>
