@@ -1,4 +1,4 @@
-import BackgroundMusic from "@/componets/BackGroundMusic";
+import BackgroundMusic from "@/componets/BackgroundMusic";
 import style from "@/styles/Vitoria.module.css"
 import { useState } from "react";
 export default function vitoria(){

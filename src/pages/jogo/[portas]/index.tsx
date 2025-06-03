@@ -5,7 +5,7 @@ import styles from "@/styles/Jogo.module.css"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { useRouter } from "next/router"
-import BackgroundMusic from "@/componets/BackGroundMusic"
+import BackgroundMusic from "@/componets/BackgroundMusic"
 
 export default function Jogo() {
   const router = useRouter()

@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Cartao from "@/componets/Cartao";
 import styles from "../styles/Formulario.module.css"
 import Link from "next/link";
-import BackgroundMusic from "@/componets/BackGroundMusic";
+import BackgroundMusic from "@/componets/BackgroundMusic";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
